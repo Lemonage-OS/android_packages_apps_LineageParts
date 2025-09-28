@@ -24,6 +24,12 @@
         android:key="accelerometer"
         android:title="@string/accelerometer_title" />
 
+    <org.lineageos.lineageparts.widget.preferences.SystemSettingSwitchPreference
+        android:key="enable_floating_rotation_button"
+        android:title="@string/enable_floating_rotation_button_title"
+        android:summary="@string/enable_floating_rotation_button_summary"
+        android:defaultValue="true" />
+
     <lineageos.preference.LineageSystemSettingSwitchPreference
         android:key="lockscreen_rotation"
         android:title="@string/display_lockscreen_rotation_title"
